@@ -1,0 +1,13 @@
+language: objective-c
+os: osx
+osx_image: xcode11.2	
+xcode_project: Neco.xcodeproj
+xcode_scheme: Neco
+xcode_destination: platform=iOS Simulator,OS=13.2,name=iPhone 8
+
+notifications:
+  email:
+    recipients:
+      - ortizfernandomartin@gmail.com
+    on_success: always
+    on_failure: always
